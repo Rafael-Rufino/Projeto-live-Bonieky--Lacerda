@@ -21,14 +21,14 @@ Um slider de fotos com botões para avançar, voltar e pausar a apresentação.
     <img alt="Web Detail" src="./.github/resultado.png" width="300px">
 </h1> -->
 
-![SlideShow](./.github/slide.jpg)
+![SlideShow](./.github/slide.png)
 
 ## Validação de Formulário
 
 Um formulário que, ao ser enviado, é validado pelo próprio navegador. São mostradas mensagens de erro para o usuário.
 
 
-![Formulário](./github/formulario.png)
+![Formulário](./.github/formulario.png)
 
 
 
