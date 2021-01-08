@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/form.css">
+   
+    <title>Validador de formulario</title>
+</head>
+<body>
+    <div class="container">
+    
+        <div class="leftside">
+            <h1>Aumente sua Produtividade</h1>
+          
+            <img src="./img/financial_data.jpg" alt="logo-formulario">
+
+        </div>
+
+        <div class="rightside">
+            <h1>Criar uma conta</h1>
+            <form method="POST" action="cadastro.php" class = "moramigoValidador">
+                <label>
+                    Nome Completo: <br>
+                    <input type="text" name="name" data-rules="required|min=2"/>
+                </label>
+                <label>
+                    Email: <br>
+                    <input type="email" name="email" data-rules="required|email">
+                </label>
+                <label>
+                    Senha: <br>
+                    <input type="password" name="password" data-rules="required|min=8">
+                </label>
+
+                <!-- <label>
+                     <input type="submit" value="Cadastrar - se">
+                </label> -->
+                <button type="submit">Cadastre - se </button>
+                
+            </form>
+
+            <div class="conta">
+                Já tem uma conta? <a href="">Faça o Login</a>
+            </div>
+
+
+        </div>
+    </div>
+    
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
